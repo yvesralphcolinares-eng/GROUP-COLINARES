@@ -1,0 +1,43 @@
+[
+  {"id": 1, 
+  "name": "Infinix note50 5g", 
+  "type": "OnS", 
+  "price": 199.99, 
+  "inStock": true,
+  "image": "/images/Infinix note50 5g.jpg"},
+
+  {"id": 2, 
+  "name": "Iphone-17-pro-max", 
+  "type": "Camera", 
+  "price": 229.99, 
+  "inStock": true,
+  "image": "/images/Iphone-17-pro-max.jpg"},
+
+  {"id": 3, 
+  "name": "Poco X8 Pro Max", 
+  "type": "Gaming", 
+  "price": 179.99, 
+  "inStock": false,
+  "image": "/images/Poco x8 pro max.jpg"},
+
+  {"id": 4, 
+  "name": "Galaxy S24 Ultra", 
+  "type": "Camera, OS, Gaming", 
+  "price": 289.99, 
+  "inStock": true,
+  "image": "/images/Samsung galaxy s24 ultra.jpg"},
+
+  {"id": 5, 
+  "name": "IQOO Z15 turbo", 
+  "type": "Heavy Usage", 
+  "price": 299.99, 
+  "inStock": true,
+  "image": "/images/vivo iqoo z15.jpg"},
+
+  {"id": 6, 
+  "name": "Vivo x300", 
+  "type": "Camera, Gaming, OS, Overall", 
+  "price": 299.99, 
+  "inStock": true,
+  "image": "/images/Vivo x300.jpg"}
+]
