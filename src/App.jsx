@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 
-import Activity1 from './Activities/Activity1/Activity1';
-import Activity2 from './Activities/Activity2/Activity2';
-import Activity3 from './Activities/Activity3/Activity3';
-import Activity4 from './Activities/Activity4/Activity4';
+import Activity1 from './Activities/Activity1/actapp1.jsx';
+import Activity2 from './Activities/Activity2/actapp2.jsx';
+import Activity3 from './Activities/Activity3/actapp3.jsx';
+import Activity4 from './Activities/Activity4/actapp4.jsx';
 
 function App() {
   return (
@@ -34,19 +34,19 @@ function App() {
             <div style={{ padding: '40px' }}>
               <h2>Select an Activity</h2>
               <div className="activities-grid">
-                <Link to="/activity1" className="activity-card">Activity 1</Link>
-                <Link to="/activity2" className="activity-card">Activity 2</Link>
-                <Link to="/activity3" className="activity-card">Activity 3</Link>
-                <Link to="/activity4" className="activity-card">Activity 4</Link>
+                <Link to="/actapp1" className="activity-card">Activity 1</Link>
+                <Link to="/actapp2" className="activity-card">Activity 2</Link>
+                <Link to="/actapp3" className="activity-card">Activity 3</Link>
+                <Link to="/actapp4" className="activity-card">Activity 4</Link>
               </div>
             </div>
           } />
 
           {}
-          <Route path="/activity1" element={<Activity1 />} />
-          <Route path="/activity2" element={<Activity2 />} />
-          <Route path="/activity3" element={<Activity3 />} />
-          <Route path="/activity4" element={<Activity4 />} />
+          <Route path="/actapp1" element={<Activity1 />} />
+          <Route path="/actapp2" element={<Activity2 />} />
+          <Route path="/actapp3" element={<Activity3 />} />
+          <Route path="/actapp4" element={<Activity4 />} />
         </Routes>
       </div>
     </Router>
